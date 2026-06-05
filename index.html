@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>BudgetBuddy — Privacy Policy</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0D0F1A; color: #E5E7EB; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.7; }
+  .hero { background: linear-gradient(135deg, #0D0F1A 0%, #111827 100%); padding: 60px 24px 40px; text-align: center; border-bottom: 1px solid #1F2937; }
+  .logo { display: inline-flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+  .logo-icon { width: 48px; height: 48px; background: #4ADE80; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 24px; }
+  .logo-text { font-size: 28px; font-weight: 800; color: #fff; }
+  .hero p { color: #9CA3AF; font-size: 15px; max-width: 500px; margin: 0 auto; }
+  .container { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+  .updated { color: #6B7280; font-size: 13px; margin-bottom: 40px; }
+  h2 { font-size: 20px; font-weight: 700; color: #fff; margin: 40px 0 12px; padding-left: 14px; border-left: 3px solid #4ADE80; }
+  h2.red { border-color: #F87171; }
+  h2.blue { border-color: #60A5FA; }
+  h2.yellow { border-color: #FBBF24; }
+  p { color: #9CA3AF; font-size: 15px; margin-bottom: 12px; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { color: #9CA3AF; font-size: 15px; margin-bottom: 6px; }
+  .card { background: #111827; border: 1px solid #1F2937; border-radius: 16px; padding: 28px; margin: 40px 0; }
+  .card-title { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 8px; }
+  .card-sub { color: #6B7280; font-size: 13px; margin-bottom: 20px; }
+  .steps { counter-reset: step; list-style: none; padding: 0; }
+  .steps li { counter-increment: step; display: flex; gap: 14px; margin-bottom: 16px; align-items: flex-start; }
+  .steps li::before { content: counter(step); min-width: 28px; height: 28px; background: #4ADE80; color: #052E16; border-radius: 50%; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; }
+  .steps li span { color: #D1D5DB; font-size: 15px; }
+  .badge { display: inline-block; background: #052E16; color: #4ADE80; border: 1px solid #166534; border-radius: 8px; padding: 4px 12px; font-size: 12px; font-weight: 700; margin-bottom: 8px; }
+  .badge.red { background: #2D0707; color: #F87171; border-color: #7F1D1D; }
+  .badge.blue { background: #0A1628; color: #60A5FA; border-color: #1E3A5F; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th { background: #1F2937; color: #9CA3AF; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-align: left; padding: 10px 14px; }
+  td { padding: 10px 14px; border-bottom: 1px solid #1F2937; color: #9CA3AF; font-size: 14px; }
+  td:first-child { color: #E5E7EB; font-weight: 500; }
+  a { color: #4ADE80; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .footer { text-align: center; color: #374151; font-size: 13px; padding: 32px 24px; border-top: 1px solid #1F2937; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="logo">
+    <div class="logo-icon">💚</div>
+    <span class="logo-text">BudgetBuddy</span>
+  </div>
+  <p>Privacy Policy &amp; Data Practices</p>
+</div>
+
+<div class="container">
+  <p class="updated">Last updated: June 2025 &nbsp;·&nbsp; Developer: Sadew Sandeepa &nbsp;·&nbsp; Package: com.sadew.budgetbuddy</p>
+
+  <!-- Delete account card — top priority for Play Console -->
+  <div class="card">
+    <div class="badge">ACCOUNT DELETION</div>
+    <div class="card-title">How to Delete Your Account</div>
+    <div class="card-sub">Your account and all associated data can be permanently deleted directly inside the app.</div>
+    <ol class="steps">
+      <li><span>Open <strong>BudgetBuddy</strong> on your device.</span></li>
+      <li><span>Tap the <strong>Settings</strong> tab at the bottom of the screen.</span></li>
+      <li><span>Scroll down to the <strong>Account</strong> section.</span></li>
+      <li><span>Tap <strong>Delete Account</strong>.</span></li>
+      <li><span>Enter your password to confirm, then tap <strong>Delete My Account</strong>.</span></li>
+    </ol>
+    <p style="margin-top:16px; font-size:13px; color:#6B7280;">
+      This permanently deletes your Firebase authentication account and all locally stored data including transactions, budgets, goals, loans, and settings. This action cannot be undone.
+    </p>
+  </div>
+
+  <h2>What Data We Collect</h2>
+  <p>BudgetBuddy collects only what is needed to provide the service. We do not sell, rent, or share your data with advertisers.</p>
+  <table>
+    <tr><th>Data Type</th><th>Purpose</th><th>Stored Where</th></tr>
+    <tr><td>Email address</td><td>Account creation &amp; login</td><td>Firebase Auth (Google)</td></tr>
+    <tr><td>Firebase User ID</td><td>Account identification</td><td>Firebase (Google)</td></tr>
+    <tr><td>Transactions &amp; amounts</td><td>Core app functionality</td><td>Your device only</td></tr>
+    <tr><td>Budget limits &amp; goals</td><td>Core app functionality</td><td>Your device only</td></tr>
+    <tr><td>App settings &amp; preferences</td><td>Personalisation</td><td>Your device only</td></tr>
+    <tr><td>Crash reports &amp; app events</td><td>Bug fixing &amp; improvement</td><td>Firebase Crashlytics &amp; Analytics (Google)</td></tr>
+  </table>
+
+  <h2 class="red">What We Never Collect</h2>
+  <ul>
+    <li>Bank account numbers or login credentials</li>
+    <li>Contacts, camera, microphone, or location</li>
+    <li>Spending habits shared with third parties or advertisers</li>
+    <li>Any data sold to third parties</li>
+  </ul>
+
+  <h2 class="blue">Third-Party Services</h2>
+  <p>BudgetBuddy uses the following Google services, each governed by <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>:</p>
+  <ul>
+    <li><strong>Firebase Authentication</strong> — stores your email and manages login</li>
+    <li><strong>Firebase Crashlytics</strong> — anonymous crash reporting to help fix bugs</li>
+    <li><strong>Firebase Analytics</strong> — anonymous usage data to improve the app</li>
+    <li><strong>Google Play Billing</strong> — handles premium purchases securely</li>
+  </ul>
+
+  <h2 class="yellow">Data Security</h2>
+  <p>All communication with Firebase is encrypted in transit using HTTPS/TLS. Your financial data (transactions, budgets, goals) is stored locally on your device and never transmitted to any server.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>BudgetBuddy is not directed at children under 13. We do not knowingly collect personal information from children.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this policy from time to time. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>Contact</h2>
+  <p>For privacy questions or data deletion requests, contact us at: <a href="mailto:sadewsandeepa@gmail.com">sadewsandeepa@gmail.com</a></p>
+</div>
+
+<div class="footer">
+  © 2025 BudgetBuddy · com.sadew.budgetbuddy · All rights reserved
+</div>
+
+</body>
+</html>
